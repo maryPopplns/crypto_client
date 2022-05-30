@@ -12,11 +12,13 @@
     "@types/react-dom": "^18.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "6",
     "react-scripts": "5.0.1",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "git": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD) && echo '\n' && echo $(tput setaf 2)'committed: ' $(tput setaf 1)$(date) && echo '\n'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
