@@ -17,6 +17,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "git": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD) && echo '\n' && echo $(tput setaf 2)'committed: ' $(tput setaf 1)$(date) && echo '\n'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
