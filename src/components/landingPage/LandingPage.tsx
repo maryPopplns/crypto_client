@@ -18,7 +18,10 @@ function LandingPage({ setIsLoggedIn }: props): JSX.Element {
         <Link to='/'>
           <img className='brand-icon' src={brandIcon} alt='brand icon' />
         </Link>
-        <div>two</div>
+        <div>
+          <Link to='/signup'>sign up</Link>
+          <Link to='/login'>login</Link>
+        </div>
       </header>
       <h1 className='landing-page-heading'>Coin Tracker</h1>
       <p className='landing-page-description'>Track your crypto portfolio</p>
