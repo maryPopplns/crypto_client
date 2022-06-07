@@ -1,3 +1,13 @@
+/* fonts */
+@font-face {
+  font-family: 'roboto-black';
+  src: url('../../fonts/Roboto-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'roboto-light';
+  src: url('../../fonts/Roboto-Light.ttf') format('truetype');
+}
+
 main {
   height: 100vh;
   width: 100vw;
@@ -15,11 +25,15 @@ header {
   justify-content: center;
   width: 100vw;
   margin-top: 1rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
+  font-family: roboto-black;
 }
 .landing-page-description {
   width: 100vw;
+  margin-top: 1rem;
   text-align: center;
+  font-size: 1rem;
+  font-family: roboto-light;
 }
 
 /* dashboard/coin icons */
