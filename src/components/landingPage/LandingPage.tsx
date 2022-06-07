@@ -24,14 +24,16 @@ function LandingPage({ setIsLoggedIn }: props): JSX.Element {
         </div>
       </header>
       <h1 className='landing-page-heading'>Coin Tracker</h1>
-      <p className='landing-page-description'>Track your crypto portfolio</p>
+      <p className='landing-page-description'>
+        State of the art technologies to track your defi portfolio
+      </p>
       <div className='dashboard-wrapper'>
         <div className='dashboard-container'>
           <img className='dashboard-icon' src={dashboard} alt='dashboard' />
           <img className='bitcoin-icon coin' src={bitcoin} alt='bitcoin' />
           <img className='ethereum-icon coin' src={ethereum} alt='ethereum' />
         </div>
-        <button className='sign-up-button'>Sign Up</button>
+        {/* <button className='sign-up-button'>Sign Up</button> */}
       </div>
     </main>
   );
