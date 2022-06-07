@@ -7,7 +7,6 @@ function App(): JSX.Element {
   return (
     <>
       {!isLoggedIn && <LandingPage setIsLoggedIn={setIsLoggedIn} />}
-      {isLoggedIn && <div>logged in</div>}
       {/* {isLoggedIn && <Dashboard />} */}
     </>
   );

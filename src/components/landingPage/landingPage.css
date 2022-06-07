@@ -4,6 +4,10 @@
   src: url('../../fonts/Roboto-Black.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'roboto-medium';
+  src: url('../../fonts/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
   font-family: 'roboto-light';
   src: url('../../fonts/Roboto-Light.ttf') format('truetype');
 }
@@ -21,14 +25,21 @@
 main {
   height: 100vh;
   width: 100vw;
-  /* background-color: #7f53ac; */
-  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 100%);
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
+  /* background-image: linear-gradient(315deg, #7f53ac 0%, #000000 100%); */
 }
 
 header {
   height: 3rem;
   width: 100vw;
-  background-color: rgba(30, 30, 30, 0.15);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .landing-page-heading {
@@ -42,6 +53,7 @@ header {
 .landing-page-description {
   width: 100vw;
   margin-top: 1rem;
+  color: rgb(75, 75, 75);
   text-align: center;
   font-size: 1rem;
   font-family: roboto-light;
@@ -53,7 +65,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: calc(50vh - 180px + 3rem);
+  top: calc(50vh - 185px + 3rem);
   width: 100vw;
 }
 .dashboard-container {
@@ -75,4 +87,47 @@ header {
   left: -1rem;
   bottom: 1rem;
   animation: bounce 1.7s infinite alternate;
+}
+.sign-up-button {
+  padding: 0.5rem 1rem;
+  font-family: roboto-medium;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid black;
+  border-radius: 1.5rem;
+}
+.sign-up-button:hover {
+  background-color: rgba(105, 105, 105, 0.2);
+}
+
+/*  */
+@media (min-width: 1000px) {
+  .landing-page-heading {
+    font-size: 5.25rem;
+  }
+  .landing-page-description {
+    font-size: 1.5rem;
+  }
+  .dashboard-wrapper {
+    top: calc(50vh - 272px + 3rem);
+  }
+  .dashboard-icon {
+    height: 30rem;
+    width: 30rem;
+  }
+  .coin {
+    height: 15rem;
+    width: 15rem;
+  }
+  .ethereum-icon {
+    right: -1rem;
+  }
+  .bitcoin-icon {
+    left: -1rem;
+    bottom: 1rem;
+  }
+  .sign-up-button {
+    font-size: 2.25rem;
+    border-radius: 2.25rem;
+  }
 }
