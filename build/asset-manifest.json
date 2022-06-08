@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/crypto_client/static/css/main.446393dc.css",
+    "main.js": "/crypto_client/static/js/main.c472dd36.js",
+    "static/js/787.991f6edc.chunk.js": "/crypto_client/static/js/787.991f6edc.chunk.js",
+    "static/media/Ethereum.png": "/crypto_client/static/media/Ethereum.7057384e355b84f000e0.png",
+    "static/media/Bitcoin.png": "/crypto_client/static/media/Bitcoin.c1b50f532c9a51e7f4ab.png",
+    "static/media/Dashboard.png": "/crypto_client/static/media/Dashboard.ac1fa4c86bb232851217.png",
+    "static/media/Roboto-Medium.ttf": "/crypto_client/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Black.ttf": "/crypto_client/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
+    "static/media/Roboto-Light.ttf": "/crypto_client/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "static/media/Brand-icon.png": "/crypto_client/static/media/Brand-icon.651547a97f4f41baf53a.png",
+    "index.html": "/crypto_client/index.html",
+    "main.446393dc.css.map": "/crypto_client/static/css/main.446393dc.css.map",
+    "main.c472dd36.js.map": "/crypto_client/static/js/main.c472dd36.js.map",
+    "787.991f6edc.chunk.js.map": "/crypto_client/static/js/787.991f6edc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.446393dc.css",
+    "static/js/main.c472dd36.js"
+  ]
+}
