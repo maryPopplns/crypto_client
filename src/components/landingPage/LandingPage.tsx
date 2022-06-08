@@ -27,9 +27,17 @@ function LandingPage(): JSX.Element {
       </p>
       <div className='dashboard-wrapper'>
         <div className='dashboard-container'>
-          <img className='dashboard-icon' src={dashboard} alt='dashboard' />
-          <img className='bitcoin-icon coin' src={bitcoin} alt='bitcoin' />
-          <img className='ethereum-icon coin' src={ethereum} alt='ethereum' />
+          <img
+            className='dashboard-icon'
+            src={dashboard}
+            alt='dashboard icon'
+          />
+          <img className='bitcoin-icon coin' src={bitcoin} alt='bitcoin icon' />
+          <img
+            className='ethereum-icon coin'
+            src={ethereum}
+            alt='ethereum icon'
+          />
         </div>
         {/* <button className='sign-up-button'>Sign Up</button> */}
       </div>
