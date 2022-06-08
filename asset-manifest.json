@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/crypto_client/static/css/main.446393dc.css",
-    "main.js": "/crypto_client/static/js/main.c472dd36.js",
+    "main.js": "/crypto_client/static/js/main.9ba34ee5.js",
     "static/js/787.991f6edc.chunk.js": "/crypto_client/static/js/787.991f6edc.chunk.js",
     "static/media/Ethereum.png": "/crypto_client/static/media/Ethereum.7057384e355b84f000e0.png",
     "static/media/Bitcoin.png": "/crypto_client/static/media/Bitcoin.c1b50f532c9a51e7f4ab.png",
@@ -12,11 +12,11 @@
     "static/media/Brand-icon.png": "/crypto_client/static/media/Brand-icon.651547a97f4f41baf53a.png",
     "index.html": "/crypto_client/index.html",
     "main.446393dc.css.map": "/crypto_client/static/css/main.446393dc.css.map",
-    "main.c472dd36.js.map": "/crypto_client/static/js/main.c472dd36.js.map",
+    "main.9ba34ee5.js.map": "/crypto_client/static/js/main.9ba34ee5.js.map",
     "787.991f6edc.chunk.js.map": "/crypto_client/static/js/787.991f6edc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.446393dc.css",
-    "static/js/main.c472dd36.js"
+    "static/js/main.9ba34ee5.js"
   ]
 }
