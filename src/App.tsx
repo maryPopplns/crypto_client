@@ -9,10 +9,7 @@ function App(): JSX.Element {
     <>
       {!isLoggedIn && (
         <Routes>
-          <Route
-            path='/'
-            element={<LandingPage setIsLoggedIn={setIsLoggedIn} />}
-          />
+          <Route path='/' element={<LandingPage />} />
         </Routes>
       )}
       {/* {isLoggedIn && <Dashboard />} */}

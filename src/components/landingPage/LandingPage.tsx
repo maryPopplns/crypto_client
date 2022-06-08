@@ -7,11 +7,9 @@ import ethereum from './assets/Ethereum.png';
 import dashboard from './assets/Dashboard.png';
 import brandIcon from './assets/Brand-icon.png';
 
-type props = { setIsLoggedIn: React.Dispatch<React.SetStateAction<boolean>> };
-
 // TODO change top calculations when dashboard-wrapper size is complete
 
-function LandingPage({ setIsLoggedIn }: props): JSX.Element {
+function LandingPage(): JSX.Element {
   return (
     <main className='landing-page'>
       <header>
